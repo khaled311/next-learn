@@ -21,20 +21,20 @@ async function getPosts() {
   return res.json();
 }
 
-export async function PostsPage() {
-  const posts = await getPosts();
+// export async function PostsPage() {
+//   const posts = await getPosts();
 
-  return (
-    <div>
-      <h1>Posts</h1>
-      <ul>
-        {posts.map((post: any) => (
-          <li key={post.id}>
-            <h2>{post.title}</h2>
-            <p>{post.body}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <h1>Posts</h1>
+//       <ul>
+//         {posts.map((post: any) => (
+//           <li key={post.id}>
+//             <h2>{post.title}</h2>
+//             <p>{post.body}</p>
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
