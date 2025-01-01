@@ -4,7 +4,7 @@ export const inter = Inter({ subsets: ["latin"] }); // Inter is the primary font
 export const lusitana = Lusitana({
   weight: ["400", "700"],
   preload: false,
-}); // Lusitana_font here will be used as the secondary font
+}); // lusitana here will be used as the secondary font
 
 // we can have our local font like this:
 // const myFont = localFont({
